@@ -1,7 +1,15 @@
 /* Mobile first queries */
 /* applies to ALL widths */
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+    height: auto;
+    width: auto;
+}
 body {
     margin: 0;
+    padding: 0;
 }
 
 .header {
@@ -120,4 +128,16 @@ h2 {
 
 footer{
     background-color: black;
+    color: white;
+    margin: 0px;
+    position: relative;
+}
+.indented{
+    text-indent: 30px;
+}
+.image{
+    max-width: 288px;
+    max-height: 384px;
+    width: auto;
+    height:auto;
 }
