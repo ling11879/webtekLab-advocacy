@@ -1,6 +1,6 @@
 .view {
    width: 380px;
-   height: 260px;
+   height: 240px;
    margin: 10px;
    float: left;
    border: 10px solid #fff;
@@ -15,7 +15,7 @@
 }
 .view .mask,.view .content {
    width: 380px;
-   height: 260px;
+   height: 240px;
    position: absolute;
    overflow: hidden;
    top: 0;
@@ -162,6 +162,7 @@
 }
 .gallery{
     max-width: 380px;
-    max-height: 300px;
-    
+    max-height: 240px;
+    width: 100%;
+    height: 100%;
 }
