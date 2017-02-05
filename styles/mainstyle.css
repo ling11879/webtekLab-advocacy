@@ -2,6 +2,7 @@
 /* applies to ALL widths */
 html {
   font-family: "Raleway Regular", sans-serif; /* 1 */
+    font-weight: 400;
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
     height: auto;
@@ -114,6 +115,10 @@ h2 {
 }
 .headtext{
     color: azure;
+    font-weight: 900;
+}
+.infotext{
+    font-weight: 500;
 }
 .info .button {
   background-color: rgb(215, 143, 97);
@@ -138,6 +143,6 @@ footer{
 .image{
     max-width: 288px;
     max-height: 384px;
-    width: auto;
-    height:auto;
+    width: 100%;
+    height: 100%;
 }
