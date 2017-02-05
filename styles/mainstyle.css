@@ -65,8 +65,21 @@ h2 {
   float:left; 
   padding-right: 2%;
 }
+
 .linklogo{
-     width: 100%;
+    width: 80%;
+    height: 80%;
+    max-height: 500px;
+    max-width: 280px;
+    display: block;
+    margin: 0 auto;
+}
+
+.linklogo2{
+    max-height: 150px;
+    max-width: 280px;
+    display: block;
+    margin: 0 auto;
 }
 
 /* Larger than mobile */
