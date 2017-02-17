@@ -68,7 +68,7 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-family: "Capriola", Helvetica, Arial, sans-serif;
   color: #222; }
 
 
@@ -159,9 +159,9 @@ button:focus{
 .button.button-primary,
 button.button-primary,
 .button-primary {
-  color: #FFF;
-  background-color: #33C3F0;
-  border-color: #33C3F0; 
+  color: #F1C40F  ;
+  background-color: #1F618D;
+  border-color: #1F618D; 
 }
 
 .button.button-primary:hover,
@@ -174,9 +174,9 @@ button.button-primary:focus,
 .button-primary:focus,
 .button-primary:focus,
 .button-primary:focus {
-  color: #FFF;
-  background-color: #1EAEDB;
-  border-color: #1EAEDB; }
+  color: #F1C40F;
+  background-color: #1A5276;
+  border-color: #1A5276; }
 
 
 /* Lists
